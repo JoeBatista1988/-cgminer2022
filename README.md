@@ -30,7 +30,7 @@ cgminer -o stratum+tcp://pool:port -u username -p password
 
 Solo mining to local bitcoind:
 
-cgminer -o http://localhost:8332 -u username -p password --btc-address 15qSxP1SQcUX3o4nhkfdbgyoWEFMomJ4rZ
+cgminer -o http://localhost:8332 -u username -p password --btc-address (yours)
 
 The list of proxy types are:
  http:    standard http 1.1 proxy
@@ -58,7 +58,7 @@ Writing the configuration will save all settings from all files in the output.
 ---
 Usage instructions:  Run "cgminer --help" to see options:
 
-Usage: cgminer [-DdElmpPQqUsTouOchnV]
+Usage: cgminer
 
 Options for both config file and command line:
 --anu-freq <arg>    Set AntminerU1/2 frequency in MHz, range 125-500 (default: 250.0)
