@@ -34,8 +34,7 @@ what you copied.
 **************************************************************************************
 * Install mingw32                                                                    *
 **************************************************************************************
-Turn off any protecting or anti-virus software. Than open self extracting archive
-Setupmingw32 install.Password is CGMiner
+Turn off any protecting or anti-virus software. Than open Setupmingw32 install.
 You will see process of installation for 1-3 minutes.Install MinGW in the default 
 directory.
 Make sure to check the option for "Download latest repository catalogs".
