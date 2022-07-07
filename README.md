@@ -55,12 +55,6 @@ Any configuration file may also contain a single
 to recursively include another configuration file.
 Writing the configuration will save all settings from all files in the output.
 
-It is actually easiest to build a windows binary using cross compilation tools
-provided by "mxe" available at http://mxe.cc/ (use the 32 bit one!)
-Once you have followed the instructions for building mxe:
-	export PATH=(path/to/mxe)/usr/bin/:$PATH
-	CFLAGS="-O2 -Wall -W -march=i686" ./configure --host=i686-pc-mingw32 <options>
-	make
 ---
 Usage instructions:  Run "cgminer --help" to see options:
 
